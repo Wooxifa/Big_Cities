@@ -6,7 +6,6 @@ from PyQt6.QtWidgets import QApplication, QLabel, QVBoxLayout, QWidget, QPushBut
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtCore import Qt
 
-# Define the address to search for
 toponym_to_find = "Москва, ул. Ак. Королева, 12"
 geocoder_api_server = "http://geocode-maps.yandex.ru/1.x/"
 geocoder_params = {
